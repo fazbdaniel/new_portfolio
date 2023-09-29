@@ -2,7 +2,7 @@ import React from "react";
 
 const Data = () => {
   return (
-    <div>
+    <div className="home__data">
       <h1 className="home__title">
         Daniel F. Baguma
         <svg
@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Web Developper</h3>
       <p className="home__description">
-        I'm a creative designer based in New York, and I'm very passionate and
+        I'm a Web Developper based in Kampala, Uganda; and I'm very passionate and
         dedicated to my work.
       </p>
 
