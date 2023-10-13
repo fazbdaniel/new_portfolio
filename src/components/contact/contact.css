@@ -19,7 +19,7 @@
 }
 
 .contact__card {
-    background-color: var(--cotainer-color);
+    background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 0.75rem;
@@ -75,7 +75,7 @@
 
 .contact__form-div {
     position: relative;
-    margin: var(--mb-2);
+    margin-bottom: var(--mb-2);
     height: 4rem;
 }
 
@@ -110,4 +110,39 @@
 
 .contact__form-area textarea {
     resize: none;
+}
+
+@media screen and (max-width: 992px) {
+    .contact__container {
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact__info {
+        justify-content: center;
+    }
+
+    .contact__form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact__info {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
 }
