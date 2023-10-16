@@ -18,7 +18,7 @@ export const Data = [
     {
         "id": 3,
         "image": Image3,
-        "title": "Kulondwa Claude",
+        "title": "Kulondwa Claudine",
         "description": "Cecile, je t'aime trop, ne m'enerve jamais, soit attentif a mes commandement, soit soumise a mes ordre"
     }
 ]
